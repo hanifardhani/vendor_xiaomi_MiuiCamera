@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
 VENDOR_PATH := vendor/xiaomi/MiuiCamera
 
 PRODUCT_COPY_FILES += \
+    $(VENDOR_PATH)/system/etc/device_features/platina.xml:system/etc/device_features/platina.xml \
     $(VENDOR_PATH)/system/etc/device_features/whyred.xml:system/etc/device_features/whyred.xml \
     $(VENDOR_PATH)/system/etc/device_features/wayne.xml:system/etc/device_features/wayne.xml \
     $(VENDOR_PATH)/system/etc/device_features/clover.xml:system/etc/device_features/clover.xml \
